@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { getFailedTests, getErrorMessage, type TestResult } from "../src/firstday";
+import { getFailedTests, getErrorMessage, type TestResult } from "../src/first-day";
 
 describe("getFailedTests", () => {
   it("retorna solo los tests fallidos", () => {
